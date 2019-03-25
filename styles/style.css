@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+header {
+    display: flex;
+}
+
+header .socialContainer {
+    font-size: 2em;
+}
+
+aside {
+    flex: 1;
+    background-image: linear-gradient(to bottom left, hsl(243, 87%, 12%), hsl(243, 86%, 85%));
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+aside img {
+    width: 50%;
+}
+
+section {
+    flex: 2;
+}
+
+.headings {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+}
+
+input {
+    border: none;
+    box-shadow: 0.1em 0.1em #d3d3d3;
+}
+
+button {
+    color: white;
+    background-color: hsl(163, 95%, 43%);
+}
